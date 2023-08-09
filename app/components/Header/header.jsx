@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import {AppBar, Box, styled, Toolbar, Typography} from "@mui/material";
-import ThemeMode from "@/app/components/themeMode";
+import ThemeMode from "@/app/components/ThemeMode";
 
 const Header = () => {
     return (
