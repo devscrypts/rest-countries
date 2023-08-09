@@ -15,7 +15,7 @@ const Countries = ({countries}) => {
         <Container>
             <Grid container spacing={{xs: 5, md: 10}}>
                 {countries?.map((country) => (
-                    <Grid item xs={12} sm={6} md={4} lg={3} key={country.cca3}>
+                    <Grid item xs={12} md={4} lg={3} key={country.cca3}>
                         <StyledLink href={`/${country.name.common}`}>
                             <StyledCard>
                                 <Stack>

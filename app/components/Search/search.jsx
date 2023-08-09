@@ -42,7 +42,7 @@ const TextField = styled("input")(({theme}) => ({
     fontWeight: 500,
     borderRadius: theme.shape.borderRadius,
     "&::placeholder": {
-        fontFamily: "Nunito sans",
+        fontFamily: "inherit",
         color:
             theme.palette.mode === "light"
                 ? theme.palette.grey[500]
