@@ -49,7 +49,8 @@ const TextField = styled("input")(({theme}) => ({
                 : theme.palette.common.white
     },
     [theme.breakpoints.down("md")]: {
-        width: "100%"
+        width: "100%",
+        boxShadow: theme.shadows[2]
     }
 }));
 
