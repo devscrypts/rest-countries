@@ -31,6 +31,7 @@ const TextField = styled("input")(({theme}) => ({
     border: "none",
     width: "50%",
     boxShadow: theme.shadows[2],
+    fontFamily: theme.typography.fontFamily,
     height: 52,
     background: theme.palette.background.paper,
     paddingLeft: theme.spacing(7),
@@ -42,12 +43,10 @@ const TextField = styled("input")(({theme}) => ({
     fontWeight: 500,
     borderRadius: theme.shape.borderRadius,
     "&::placeholder": {
-        fontFamily: "inherit",
         color:
             theme.palette.mode === "light"
                 ? theme.palette.grey[500]
-                : theme.palette.common.white,
-        fontWeight: 500
+                : theme.palette.common.white
     },
     [theme.breakpoints.down("md")]: {
         width: "100%"
