@@ -1,7 +1,6 @@
 import {Nunito_Sans} from "next/font/google";
 import ThemeRegistry from "@/app/theme/ThemeRegistry";
 import Header from "@/app/components/Header";
-import {Page} from "@/app/components";
 
 export const metadata = {
     title: "Rest Countries Api",

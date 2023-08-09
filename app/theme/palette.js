@@ -1,5 +1,4 @@
 // Theme color config
-import {common} from "@mui/material/colors";
 import {alpha} from "@mui/material";
 
 const GREY = {
